@@ -1,0 +1,9 @@
+services:
+  mariadb-customer:
+    image: mariadb
+    container_name: mariadb-customer
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: customers
+    ports:
+      - "3307:3306"

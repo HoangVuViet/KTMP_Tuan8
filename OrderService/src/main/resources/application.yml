@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://order-db:3306/orderdb
+    username: user
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+

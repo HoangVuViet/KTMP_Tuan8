@@ -1,0 +1,24 @@
+.order-item {
+    margin-bottom: 20px;
+  }
+  
+  .order-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .order-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .order-item ul {
+    padding-left: 20px;
+  }
+  
+  .order-item ul li {
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
